@@ -1,0 +1,18 @@
+How to use?
+-----------
+
+You can import ``fineuploader`` from ``js.fineuploader`` and ``need`` it where
+you want these resources to be included on a page::
+
+  >>> from js.fineuploader import fineuploader
+  >>> fineuploader.need()
+
+Or if you want the jQuery plugin version::
+
+  >>> from js.fineuploader import jquery_fineuploader
+  >>> jquery_fineuploader.need()
+
+With either version you might also want the CSS::
+
+  >>> from js.fineuploader import fineuploader_css
+  >>> fineuploader_css.need()
