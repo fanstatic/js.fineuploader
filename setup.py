@@ -44,10 +44,10 @@ setup(
         'fanstatic',
         'js.jquery',
         'setuptools',
-        ],
+    ],
     entry_points={
         'fanstatic.libraries': [
             'fineuploader = js.fineuploader:library',
-            ],
-        },
-    )
+        ],
+    },
+)
