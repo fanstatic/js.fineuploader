@@ -11,7 +11,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-version = '3.3.0'
+version = '5.14.0'
 
 
 def read(*rnames):
@@ -34,7 +34,7 @@ setup(
     keywords='',
     author='Andreas Kaiser',
     author_email='disko@binarypunks.com',
-    url='https://github.com/disko/js.fineuploader',
+    url='https://github.com/fanstatic/js.fineuploader',
     license='BSD',
     packages=find_packages(),
     namespace_packages=['js'],
@@ -49,5 +49,8 @@ setup(
         'fanstatic.libraries': [
             'fineuploader = js.fineuploader:library',
         ],
+    },
+    extras_require={
+        'testing': ['setuptools-git', 'pytest', 'tox', ],
     },
 )
