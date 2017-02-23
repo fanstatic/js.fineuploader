@@ -4,7 +4,7 @@ CHANGES
 5.14.0
 ------
 
-- Update to Fine Uploader 5.15.0.
+- Update to Fine Uploader 5.14.0.
 - Test against Python 3.3, 3.4, 3.5 and 3.6 with tox and on TravisCI.
 - Add a script to update from npm automatically.
 
