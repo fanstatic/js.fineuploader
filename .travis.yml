@@ -8,5 +8,5 @@ python:
   - "3.6"
 install:
   - pip install -e .[testing]
-script: bin/pytest js/fineuploader/test_fineuploader.txt
+script: pytest js/fineuploader
 
